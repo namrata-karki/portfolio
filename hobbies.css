@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: #E7D9D9;
+}
+h2{
+    color: rgb(218, 79, 79);
+}
+.content{
+    display: flex;
+    color: rgb(218, 79, 79);
+    margin: 20px;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.text{
+    color:  rgb(218, 79, 79);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+#hobbies{
+    padding-bottom: 20px;
+}
+nav{
+    display: block;
+    text-align: center;
+}
+nav a{
+    padding: 25px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: palevioletred;
+}
+nav a:hover{
+    color:  rgb(218, 79, 79);
+}
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.flex-item img{
+    width: 200px;
+    height: 200px;
+    padding-bottom: 20px;
+}
+.text{
+    text-align: center;
+}
+.flex-item h2{
+    font-size: 20px;
+}
+.flex-item h5{
+    font-weight: 100;
+    font-size: 15px;
+}
+h3{
+    color:  rgb(218, 79, 79);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h4{
+    color:  rgb(218, 79, 79);
+    margin-bottom: 10px;
+}

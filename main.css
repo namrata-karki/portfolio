@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Secular+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Pacifico', cursive;
+    background-image: url("book.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+button{
+    background-color: burlywood;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+button a{
+    text-decoration: none;
+    
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+h1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #4F3328;
+}
+label{
+    padding-top: 5%;
+}
+input{
+    margin-top: 20mm;
+    margin-bottom: 5mm;
+    background-color: burlywood;
+}
+nav{
+    display: block;
+    text-align: center;
+}
+nav a{
+    padding: 25px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: brown;
+}
+nav a:hover{
+    color:  rgb(218, 79, 79);
+}
